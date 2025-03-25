@@ -1,0 +1,14 @@
+{
+  "name": "neuraleap-website",
+  "version": "1.0.0",
+  "description": "NeuraLeap Website",
+  "scripts": {
+    "dev": "serve .",
+    "start": "serve ."
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
+    "serve": "^14.2.1"
+  }
+}
