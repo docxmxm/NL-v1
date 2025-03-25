@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuraLeap - About Us</title>
+    <meta name="description" content="Learn about NeuraLeap's mission, team, and vision for the future of AI education.">
+    <meta name="keywords" content="NeuraLeap, AI learning, about us, AI education, AI team">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+    
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/animations.css" rel="stylesheet">
+    
+    <!-- 确保字体一致性的额外样式 -->
+    <style>
+        body, h1, h2, h3, h4, h5, h6, p, a, button, input, select, textarea {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .nav-item, .dropdown-item {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* 确保标签切换正确显示 */
+        .about-tab.text-cyan-400 {
+            border-bottom-width: 2px;
+        }
+        
+        /* Improved tab styling for mobile */
+        .about-tab {
+            -webkit-tap-highlight-color: transparent;
+            transition: background-color 0.15s ease-in-out;
+            position: relative;
+            min-width: 110px;
+            text-align: center;
+        }
+        
+        .about-tab:active {
+            background-color: rgba(6, 182, 212, 0.1);
+        }
+        
+        .touch-manipulation {
+            touch-action: manipulation;
+        }
+        
+        /* Add visual feedback for touch */
+        .about-tab.active-touch {
+            background-color: rgba(6, 182, 212, 0.15);
+        }
+        
+        @media (max-width: 640px) {
+            .about-tab {
+                padding: 10px 16px;
+                min-width: 100px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-dark-bg text-gray-200">
+    <!-- Neural network background -->
+    <div class="neural-bg"></div>
+    <div class="tech-lines-bg"></div>
+    
+    <!-- Header navigation -->
+    <div id="header-container"></div>
+
+    <!-- Page Header -->
+    <div class="hero-gradient relative py-16 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-4xl font-bold text-white mb-4">About <span class="neon-text">Us</span></h1>
+            <p class="text-xl text-blue-200 max-w-3xl">Learn about our mission, team, and vision for the future of AI education.</p>
+        </div>
+    </div>
+
+    <!-- About Section Tabs -->
+    <div class="hero-gradient border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex overflow-x-auto space-x-6 pb-2">
+                <button class="about-tab text-cyan-400 border-b-2 border-cyan-400 whitespace-nowrap px-4 py-3 font-medium text-base touch-manipulation" data-tab="purpose">Our Purpose</button>
+                <button class="about-tab text-gray-300 border-transparent whitespace-nowrap px-4 py-3 font-medium text-base touch-manipulation" data-tab="team">Teaching Team</button>
+                <button class="about-tab text-gray-300 border-transparent whitespace-nowrap px-4 py-3 font-medium text-base touch-manipulation" data-tab="story">Company Story</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Purpose Section -->
+    <div id="purpose-section" class="about-section">
+        <div class="py-16 px-6">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col lg:flex-row gap-12 items-center">
+                    <div class="lg:w-1/2">
+                        <h1 class="text-4xl font-bold text-white mb-6">Our <span class="neon-text">Purpose</span></h1>
+
+                        <p class="text-gray-300 text-lg mb-6">At NeuraLeap, we believe that large language models (LLMs) represent a transformative technology that can significantly enhance human potential when used effectively and safely.</p>
+
+                        <p class="text-gray-300 mb-6">Our mission is to empower individuals with the knowledge and skills to harness these powerful AI tools in their daily lives and professional work, while ensuring they understand the importance of ethical usage and safety considerations.</p>
+
+                        <h2 class="text-2xl font-bold text-white mt-8 mb-4">Our Core Values</h2>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="h-10 w-10 bg-blue-900 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-white mb-2">Safety First</h3>
+                                    <p class="text-gray-400">We prioritize responsible AI usage, teaching our students to understand both the capabilities and limitations of LLMs to ensure safe and beneficial applications.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="h-10 w-10 bg-blue-900 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-white mb-2">Practical Empowerment</h3>
+                                    <p class="text-gray-400">We focus on real-world applications that help people leverage LLMs to enhance productivity, creativity, and problem-solving in their personal and professional lives.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="h-10 w-10 bg-blue-900 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-white mb-2">Accessible Education</h3>
+                                    <p class="text-gray-400">We believe AI education should be accessible to everyone, creating courses that cater to different skill levels and backgrounds while maintaining academic rigor.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="h-10 w-10 bg-blue-900 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-white mb-2">Community Building</h3>
+                                    <p class="text-gray-400">We foster a collaborative community where students, educators, and practitioners can share knowledge, experiences, and best practices in AI utilization.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/2">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-20 rounded-xl blur-xl"></div>
+                            <div class="relative card-bg rounded-xl overflow-hidden border border-gray-800">
+                                <div class="px-6 py-8">
+                                    <h2 class="text-2xl font-bold text-white mb-6">How We Help You Improve Life Quality Through AI</h2>
+
+                                    <div class="space-y-6">
+                                        <div class="flex items-start">
+                                            <div class="bg-blue-900 rounded-full p-2 mr-4 flex-shrink-0">
+                                                <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <h3 class="text-lg font-medium text-white mb-2">Enhanced Productivity</h3>
+                                                <p class="text-gray-400">Learn to automate routine tasks, draft documents, analyze information, and organize workflows using LLMs.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-start">
+                                            <div class="bg-blue-900 rounded-full p-2 mr-4 flex-shrink-0">
+                                                <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <h3 class="text-lg font-medium text-white mb-2">Creative Augmentation</h3>
+                                                <p class="text-gray-400">Discover how to leverage AI as a creative partner for writing, design, brainstorming, and problem-solving.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-start">
+                                            <div class="bg-blue-900 rounded-full p-2 mr-4 flex-shrink-0">
+                                                <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <h3 class="text-lg font-medium text-white mb-2">Personalized Learning</h3>
+                                                <p class="text-gray-400">Utilize LLMs to create customized learning experiences that adapt to your pace, style, and specific interests.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-start">
+                                            <div class="bg-blue-900 rounded-full p-2 mr-4 flex-shrink-0">
+                                                <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <h3 class="text-lg font-medium text-white mb-2">Effective Communication</h3>
+                                                <p class="text-gray-400">Enhance your communication skills with AI assistance for writing, translation, summarization, and audience adaptation.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-start">
+                                            <div class="bg-blue-900 rounded-full p-2 mr-4 flex-shrink-0">
+                                                <svg class="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <h3 class="text-lg font-medium text-white mb-2">Responsible Usage</h3>
+                                                <p class="text-gray-400">Learn to recognize AI limitations, verify information, protect privacy, and apply ethical considerations in AI applications.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teaching Team Section -->
+    <div id="team-section" class="about-section hidden">
+        <div class="py-16 px-6">
+            <div class="max-w-7xl mx-auto">
+                <h1 class="text-4xl font-bold text-white mb-8 text-center">Our Teaching <span class="neon-text">Team</span></h1>
+
+                <p class="text-gray-300 text-lg max-w-3xl mx-auto text-center mb-12">Our team combines academic excellence with practical industry experience to deliver comprehensive and cutting-edge AI education.</p>
+
+                <!-- Leadership Team -->
+                <h2 class="text-2xl font-bold text-white mb-8">Leadership</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                    <!-- Leader 1 (Roi) -->
+                    <div class="card-bg rounded-xl overflow-hidden group relative">
+                        
+                            <div class="h-64 bg-gradient-to-br from-blue-900 to-purple-800 flex items-center justify-center overflow-hidden">
+                                <img src="/Our staff/Zhe Luo (Roi)/Zhe Luo (Roi).jpeg" alt="Zhe Luo (Roi)" class="object-contain h-56 w-auto max-w-full mx-auto">
+                            </div>
+
+                            <div class="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black via-black/70 to-transparent flex items-center justify-center transition-all duration-300 ease-in-out">
+                                <div class="p-4 text-center">
+                                    <div class="flex justify-center space-x-6 mb-3">
+                                        <a href="https://www.linkedin.com/in/zhe-luo-8325a1199/" target="_blank" class="bg-blue-800 hover:bg-blue-700 text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110 flex items-center" title="LinkedIn Profile">
+                                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                            </svg>
+                                        </a>
+                                        <a href="https://scholar.google.com/citations?user=xNyAnjEAAAAJ&hl=en&oi=ao" target="_blank" class="bg-blue-800 hover:bg-blue-700 text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110 flex items-center" title="Google Scholar Profile">
+                                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <p class="text-white font-medium">View Profiles</p>
+                                </div>
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white mb-1">Zhe Luo (Roi)</h3>
+                            <p class="text-cyan-400 mb-4">Founder, Teacher & Tech-Consultant</p>
+
+                            <p class="text-gray-400 mb-4">Final year PhD candidate in Artificial Intelligence with over five years in education, including three years as an AI tutor at UTS. Co-founder of two AI startups focused on the intersection of technology, business, and real-world applications.</p>
+
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">AI Education</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">Entrepreneurship</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">Business Technology</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Leader 2 (Shane) -->
+                    <div class="card-bg rounded-xl overflow-hidden group relative">
+                        
+                            <div class="h-64 bg-gradient-to-br from-indigo-900 to-purple-900 flex items-center justify-center overflow-hidden">
+                                <img src="/Our staff/Xing Zi (Shane)/Xing Zi (Shane).jpeg" alt="Xing Zi (Shane)" class="object-contain h-56 w-auto max-w-full mx-auto">
+                            </div>
+
+                            <div class="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black via-black/70 to-transparent flex items-center justify-center transition-all duration-300 ease-in-out">
+                                <div class="p-4 text-center">
+                                    <div class="flex justify-center space-x-6 mb-3">
+                                        <a href="https://www.linkedin.com/in/shane-zi-341ab91ab/" target="_blank" class="bg-blue-800 hover:bg-blue-700 text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110 flex items-center" title="LinkedIn Profile">
+                                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                            </svg>
+                                        </a>
+                                        <a href="https://scholar.google.com/citations?user=4Tf3bN8AAAAJ&hl=en" target="_blank" class="bg-blue-800 hover:bg-blue-700 text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110 flex items-center" title="Google Scholar Profile">
+                                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <p class="text-white font-medium">View Profiles</p>
+                                </div>
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white mb-1">Xing Zi (Shane)</h3>
+                            <p class="text-cyan-400 mb-4">Founder, Teacher & Tech-Consultant</p>
+
+                            <p class="text-gray-400 mb-4">PhD candidate in AI-based Disaster Response Systems at UTS. Co-founder of J4 Education, the first AI-centered high-level Education consultancy. Research focuses on automated injury identification, deep fake technology, and fall detection systems.</p>
+
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">AI Research</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">Disaster Response</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">Education</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Leader 3 (Today) -->
+                    <div class="card-bg rounded-xl overflow-hidden group relative">
+                        
+                            <div class="h-64 bg-gradient-to-br from-blue-900 to-blue-800 flex items-center justify-center overflow-hidden">
+                                <img src="/Our staff/Tianyi Ma (Today)/Tianyi Ma (Today).jpeg" alt="Tianyi Ma (Today)" class="object-contain h-56 w-auto max-w-full mx-auto">
+                            </div>
+
+                            <div class="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black via-black/70 to-transparent flex items-center justify-center transition-all duration-300 ease-in-out">
+                                <div class="p-4 text-center">
+                                    <div class="flex justify-center space-x-6 mb-3">
+                                        <a href="https://www.linkedin.com/in/tianyi-ma-9203ba260/" target="_blank" class="bg-blue-800 hover:bg-blue-700 text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110 flex items-center" title="LinkedIn Profile">
+                                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                            </svg>
+                                        </a>
+                                        <a href="https://scholar.google.com/citations?user=7rdDG04AAAAJ&hl=en" target="_blank" class="bg-blue-800 hover:bg-blue-700 text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110 flex items-center" title="Google Scholar Profile">
+                                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <p class="text-white font-medium">View Profiles</p>
+                                </div>
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white mb-1">Tianyi Ma (Today)</h3>
+                            <p class="text-cyan-400 mb-4">Teacher & Tech-Consultant</p>
+
+                            <p class="text-gray-400 mb-4">Ph.D. candidate at the University of Technology Sydney, specializing in machine learning, computer vision, and cross-domain learning with a focus on multimedia. Research interests in AI applications and human-AI interaction.</p>
+
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">Machine Learning</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">Computer Vision</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-1 rounded">Human-AI Interaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructors -->
+                <h2 class="text-2xl font-bold text-white mb-8">Instructors</h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
+                    <!-- Instructor 1 -->
+                    <div class="card-bg rounded-xl overflow-hidden">
+                        <div class="h-48 bg-gradient-to-br from-blue-900 to-indigo-900 flex items-center justify-center">
+                            <div class="w-32 h-32 rounded-full bg-blue-800 flex items-center justify-center text-4xl font-bold text-white">
+                                JN
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold text-white mb-1">Dr. Jennifer Nguyen</h3>
+                            <p class="text-cyan-400 text-sm mb-2">AI Ethics Specialist</p>
+
+                            <p class="text-gray-400 text-sm mb-3">PhD in Philosophy of Technology with research focus on ethical implications of AI systems.</p>
+
+                            <div class="flex flex-wrap gap-1">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Ethics</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Policy</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructor 2 -->
+                    <div class="card-bg rounded-xl overflow-hidden">
+                        <div class="h-48 bg-gradient-to-br from-purple-900 to-blue-900 flex items-center justify-center">
+                            <div class="w-32 h-32 rounded-full bg-purple-800 flex items-center justify-center text-4xl font-bold text-white">
+                                RA
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold text-white mb-1">Dr. Robert Anderson</h3>
+                            <p class="text-cyan-400 text-sm mb-2">Prompt Engineering Expert</p>
+
+                            <p class="text-gray-400 text-sm mb-3">Developed innovative prompting techniques for enterprise LLM applications at leading tech companies.</p>
+
+                            <div class="flex flex-wrap gap-1">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Prompting</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">UX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructor 3 -->
+                    <div class="card-bg rounded-xl overflow-hidden">
+                        <div class="h-48 bg-gradient-to-br from-cyan-900 to-green-900 flex items-center justify-center">
+                            <div class="w-32 h-32 rounded-full bg-cyan-800 flex items-center justify-center text-4xl font-bold text-white">
+                                EK
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold text-white mb-1">Emma Khan</h3>
+                            <p class="text-cyan-400 text-sm mb-2">LLM Applications Lead</p>
+
+                            <p class="text-gray-400 text-sm mb-3">Product manager for AI-powered applications with expertise in designing practical LLM solutions.</p>
+
+                            <div class="flex flex-wrap gap-1">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Applications</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Product</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructor 4 -->
+                    <div class="card-bg rounded-xl overflow-hidden">
+                        <div class="h-48 bg-gradient-to-br from-red-900 to-purple-900 flex items-center justify-center">
+                            <div class="w-32 h-32 rounded-full bg-red-800 flex items-center justify-center text-4xl font-bold text-white">
+                                CP
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold text-white mb-1">Carlos Perez</h3>
+                            <p class="text-cyan-400 text-sm mb-2">ML Implementation Specialist</p>
+
+                            <p class="text-gray-400 text-sm mb-3">Expert in fine-tuning and optimization of large language models for specialized applications.</p>
+
+                            <div class="flex flex-wrap gap-1">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Fine-tuning</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">PyTorch</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructor 5 -->
+                    <div class="card-bg rounded-xl overflow-hidden">
+                        <div class="h-48 bg-gradient-to-br from-green-900 to-blue-900 flex items-center justify-center">
+                            <div class="w-32 h-32 rounded-full bg-green-800 flex items-center justify-center text-4xl font-bold text-white">
+                                AM
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold text-white mb-1">Dr. Aisha Malik</h3>
+                            <p class="text-cyan-400 text-sm mb-2">NLP Researcher</p>
+
+                            <p class="text-gray-400 text-sm mb-3">Pioneering researcher in natural language understanding with multiple publications on transformer architectures.</p>
+
+                            <div class="flex flex-wrap gap-1">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">NLP</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Research</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructor 6 -->
+                    <div class="card-bg rounded-xl overflow-hidden">
+                        <div class="h-48 bg-gradient-to-br from-yellow-900 to-red-900 flex items-center justify-center">
+                            <div class="w-32 h-32 rounded-full bg-yellow-800 flex items-center justify-center text-4xl font-bold text-white">
+                                BT
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold text-white mb-1">Brian Thompson</h3>
+                            <p class="text-cyan-400 text-sm mb-2">AI Safety Engineer</p>
+
+                            <p class="text-gray-400 text-sm mb-3">Specializes in evaluating and mitigating potential risks in deployed AI systems and applications.</p>
+
+                            <div class="flex flex-wrap gap-1">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Safety</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Evaluation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructor 7 -->
+                    <div class="card-bg rounded-xl overflow-hidden">
+                        <div class="h-48 bg-gradient-to-br from-pink-900 to-purple-900 flex items-center justify-center">
+                            <div class="w-32 h-32 rounded-full bg-pink-800 flex items-center justify-center text-4xl font-bold text-white">
+                                SW
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold text-white mb-1">Sophia Wang</h3>
+                            <p class="text-cyan-400 text-sm mb-2">Educational AI Specialist</p>
+
+                            <p class="text-gray-400 text-sm mb-3">Expert in designing AI-powered educational experiences and personalized learning systems.</p>
+
+                            <div class="flex flex-wrap gap-1">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">EdTech</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructor 8 -->
+                    <div class="card-bg rounded-xl overflow-hidden">
+                        <div class="h-48 bg-gradient-to-br from-gray-800 to-blue-900 flex items-center justify-center">
+                            <div class="w-32 h-32 rounded-full bg-gray-700 flex items-center justify-center text-4xl font-bold text-white">
+                                DM
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold text-white mb-1">Daniel Martinez</h3>
+                            <p class="text-cyan-400 text-sm mb-2">LLM Integration Engineer</p>
+
+                            <p class="text-gray-400 text-sm mb-3">Develops methods for integrating LLMs with existing software systems and workflows.</p>
+
+                            <div class="flex flex-wrap gap-1">
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">APIs</span>
+                                <span class="text-xs text-gray-400 bg-blue-900 bg-opacity-40 px-2 py-0.5 rounded">Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Guest Lecturers Section -->
+                <div class="card-bg rounded-xl p-8 mb-16">
+                    <h2 class="text-2xl font-bold text-white mb-6">Guest Lecturers & Industry Experts</h2>
+
+                    <p class="text-gray-300 mb-8">Our courses feature guest lectures from leading figures in AI research, development, and policy to provide students with diverse perspectives and cutting-edge insights.</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-blue-900 bg-opacity-30 rounded-lg p-4">
+                            <h3 class="text-white font-bold mb-2">AI Research Leaders</h3>
+                            <p class="text-gray-400 text-sm">Researchers from top AI labs and universities share the latest advancements in large language model development.</p>
+                        </div>
+
+                        <div class="bg-blue-900 bg-opacity-30 rounded-lg p-4">
+                            <h3 class="text-white font-bold mb-2">Industry Practitioners</h3>
+                            <p class="text-gray-400 text-sm">AI engineers and product managers demonstrate real-world applications and implementation strategies.</p>
+                        </div>
+
+                        <div class="bg-blue-900 bg-opacity-30 rounded-lg p-4">
+                            <h3 class="text-white font-bold mb-2">Ethics & Policy Experts</h3>
+                            <p class="text-gray-400 text-sm">Specialists in AI ethics, governance, and policy discuss the societal implications of AI advancement.</p>
+                        </div>
+
+                        <div class="bg-blue-900 bg-opacity-30 rounded-lg p-4">
+                            <h3 class="text-white font-bold mb-2">AI Safety Researchers</h3>
+                            <p class="text-gray-400 text-sm">Leading figures in AI alignment and safety research explain current approaches to ensuring beneficial AI.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Join Our Team CTA -->
+                <div class="bg-gradient-to-r from-blue-900 to-indigo-900 rounded-xl p-8 text-center">
+                    <h2 class="text-2xl font-bold text-white mb-4">Join Our Teaching Team</h2>
+                    <p class="text-blue-200 max-w-2xl mx-auto mb-6">We're always looking for passionate educators and AI experts to join our mission of making AI education accessible and impactful.</p>
+                    <a href="#" class="inline-block bg-white text-blue-900 px-6 py-3 rounded-lg font-medium hover:bg-blue-100 transition-colors">View Open Positions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Company Story Section -->
+    <div id="story-section" class="about-section hidden">
+        <div class="py-16 px-6">
+            <div class="max-w-7xl mx-auto">
+                <h1 class="text-4xl font-bold text-white mb-8">Our <span class="neon-text">Story</span></h1>
+
+                <div class="space-y-8 max-w-4xl mx-auto">
+                    <div class="space-y-4">
+                        <h2 class="text-2xl font-bold text-white">The Beginning (January 2025)</h2>
+                        <p class="text-gray-300 mb-4">NeuraLeap began with a profound observation: despite revolutionary advancements in large language models and AI research, most of these powerful technologies remained confined to academic papers and tech companies, inaccessible to everyday people who could benefit most from them.</p>
+                        
+                        <p class="text-gray-300 mb-4">Zhe Luo (Roi), a PhD candidate in Artificial Intelligence with extensive educational experience, and Xing Zi (Shane), a researcher focusing on AI-based Disaster Response Systems, joined forces with Cultiv8group to bridge this critical gap between cutting-edge AI technology and practical, accessible applications.</p>
+                        
+                        <p class="text-gray-300">The founding team shared a common vision: democratizing AI knowledge and bringing the benefits of language models into daily applications that could genuinely improve people's lives, productivity, and well-being.</p>
+                    </div>
+
+                    <!-- Origin Story -->
+                    <div class="relative pl-8 mb-12">
+                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-cyan-400 -ml-2 z-10"></div>
+                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-cyan-400 animate-ping -ml-2"></div>
+
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold text-white mb-4">January 2025: The Founding Vision</h2>
+
+                                <p class="text-gray-300 mb-4">NeuraLeap was officially founded in January 2025, during a period when AI technologies were rapidly advancing but remained largely inaccessible to the general public. Zhe Luo, having spent years as an AI tutor at UTS and co-founding two AI startups, understood firsthand the disconnect between academic AI research and practical applications.</p>
+
+                                <p class="text-gray-300 mb-4">Xing Zi brought his experience with AI-based disaster response systems and educational consulting, believing deeply that AI could solve critical real-world problems if made more accessible. Cultiv8group provided the business infrastructure and resources needed to turn the vision into reality.</p>
+
+                                <p class="text-gray-300">The founders weren't just interested in teaching people about AI—they were committed to transforming how AI could be integrated into everyday life, with a strong emphasis on ethical usage, safety, and genuine human benefit rather than technological novelty.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Early Challenges -->
+                    <div class="relative pl-8 mb-12">
+                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-blue-600 -ml-2"></div>
+
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold text-white mb-4">Early 2025: Overcoming Initial Challenges</h2>
+
+                                <p class="text-gray-300 mb-4">The early months weren't easy. The team faced significant skepticism about whether complex AI technologies could be made truly accessible to non-technical users. Funding was tight, and they operated out of a small office space borrowed from a university connection, working late nights and weekends to develop their curriculum.</p>
+
+                                <p class="text-gray-300 mb-4">A particular challenge came when their initial course materials were criticized for being either too technical or oversimplified. Rather than compromising, the team completely redesigned their educational approach, spending countless hours interviewing potential students from diverse backgrounds to understand exactly how they would want to learn and apply AI.</p>
+
+                                <p class="text-gray-300">Another obstacle emerged when a planned partnership with a major educational platform fell through at the last minute, threatening their launch timeline. Instead of giving up, the team pivoted to build their own platform from scratch, ultimately giving them more control over the student experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Breakthrough -->
+                    <div class="relative pl-8 mb-12">
+                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-blue-600 -ml-2"></div>
+
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold text-white mb-4">Mid 2025: The Breakthrough</h2>
+
+                                <p class="text-gray-300 mb-4">The team's determination paid off when they developed their signature teaching methodology—the "AI Application Framework"—which bridged theoretical understanding with practical implementation in a way that resonated with students. This innovative approach caught the attention of several tech influencers who promoted the courses to their followers.</p>
+
+                                <p class="text-gray-300 mb-4">A turning point came when a small business owner used skills learned from NeuraLeap to create an AI-powered customer service solution that saved her business during a staffing crisis. Her story went viral, bringing attention to the practical impact of NeuraLeap's education.</p>
+
+                                <p class="text-gray-300">This real-world success validated the founders' core belief: AI education wasn't just about understanding technology—it was about empowering people to solve real problems in their lives and businesses. The incident led to a surge of interest from small business owners and professionals looking to leverage AI in practical ways.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Impact -->
+                    <div class="relative pl-8 mb-12">
+                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-blue-600 -ml-2"></div>
+
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold text-white mb-4">Late 2025: Growing Social Impact</h2>
+
+                                <p class="text-gray-300 mb-4">As NeuraLeap grew, the founders launched their "AI for All" initiative, providing scholarships to students from underrepresented backgrounds and regions. This program faced logistical and financial hurdles, but the team's unwavering commitment to democratizing AI knowledge pushed them to find creative solutions.</p>
+
+                                <p class="text-gray-300 mb-4">The company began partnering with non-profit organizations to develop specialized AI courses for healthcare workers, educators, and community organizers. In one particularly meaningful project, they helped rural teachers implement AI-assisted personalized learning for students with limited resources.</p>
+
+                                <p class="text-gray-300">These initiatives weren't just good PR—they reflected the founders' genuine belief that AI should benefit everyone, not just those in tech hubs or with technical backgrounds. The team often worked pro bono on these projects, sacrificing short-term profit for long-term impact.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Present -->
+                    <div class="relative pl-8">
+                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-cyan-400 -ml-2"></div>
+
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold text-white mb-4">2026: Present Day and Vision Forward</h2>
+
+                                <p class="text-gray-300 mb-4">Today, NeuraLeap has grown from a small startup with a big vision to an influential force in AI education. Despite offers to sell to larger educational platforms, the founding team remains committed to their original mission and independence, ensuring that their educational approach continues to prioritize practical impact and ethical considerations over commercial interests.</p>
+
+                                <p class="text-gray-300 mb-4">The company now offers courses ranging from basic AI literacy to advanced implementation, collaborates with universities and industry partners, and continues to pioneer new ways to make complex AI technologies accessible and useful in everyday contexts. Their community of alumni has become a vibrant ecosystem of innovation, with many students going on to create their own AI-powered solutions to problems in their communities.</p>
+
+                                <p class="text-gray-300 mb-6">Looking forward, Zhe, Xing, and the entire NeuraLeap team remain steadfast in their resolve to ensure that as AI technology advances, its benefits are distributed widely and equitably. They continue to adapt their curriculum to emerging AI capabilities while maintaining their core focus on responsible, practical, and beneficial applications that truly enhance human lives.</p>
+
+                                <div class="text-center">
+                                    <a href="../courses/index.html" class="inline-block neon-button px-6 py-3 rounded-lg">Explore Our Courses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vision and Mission Statement -->
+                <div class="mb-16">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold text-white mb-4">Our Vision</h2>
+
+                                <p class="text-gray-300">A world where everyone can harness the power of AI to enhance their productivity, creativity, and quality of life in safe, ethical, and beneficial ways, regardless of their technical background or resources.</p>
+                            </div>
+                        </div>
+
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold text-white mb-4">Our Mission</h2>
+
+                                <p class="text-gray-300">To bridge the gap between cutting-edge AI research and everyday applications, empowering people with practical knowledge that transforms how they work, learn, and solve problems while maintaining a strong commitment to ethical usage and positive social impact.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonials -->
+                <div class="mb-16">
+                    <h2 class="text-2xl font-bold text-white mb-8 text-center">What Our Students Say</h2>
+
+                    <div class="grid grid-cols-1 gap-6">
+                        <!-- Testimonial 1 -->
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <div class="flex items-start">
+                                    <div class="flex-shrink-0 mr-4">
+                                        <div class="h-12 w-12 rounded-full bg-gradient-to-r from-blue-600 to-cyan-500 flex items-center justify-center text-white font-bold">
+                                            JD
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="flex items-center mb-2">
+                                            <div class="flex text-yellow-500">
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                            </div>
+                                            <span class="ml-2 text-white font-medium">John D., Marketing Director</span>
+                                        </div>
+
+                                        <p class="text-gray-400">"NeuraLeap transformed how I approach my work. Their courses taught me practical ways to use AI for content creation and market analysis that would have taken me years to figure out on my own. The emphasis on ethical usage also gave me confidence that I'm applying these tools responsibly."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <div class="flex items-start">
+                                    <div class="flex-shrink-0 mr-4">
+                                        <div class="h-12 w-12 rounded-full bg-gradient-to-r from-purple-600 to-pink-500 flex items-center justify-center text-white font-bold">
+                                            ML
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="flex items-center mb-2">
+                                            <div class="flex text-yellow-500">
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                            </div>
+                                            <span class="ml-2 text-white font-medium">Maria L., Teacher</span>
+                                        </div>
+
+                                        <p class="text-gray-400">"As an educator, I was looking for ways to incorporate AI into my classroom effectively and responsibly. NeuraLeap's courses gave me both the technical skills and the ethical framework to do this confidently. My students now benefit from personalized learning experiences I couldn't have created without these skills."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="card-bg rounded-xl overflow-hidden">
+                            <div class="p-6">
+                                <div class="flex items-start">
+                                    <div class="flex-shrink-0 mr-4">
+                                        <div class="h-12 w-12 rounded-full bg-gradient-to-r from-green-600 to-cyan-500 flex items-center justify-center text-white font-bold">
+                                            RK
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="flex items-center mb-2">
+                                            <div class="flex text-yellow-500">
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                            </div>
+                                            <span class="ml-2 text-white font-medium">Raj K., Software Developer</span>
+                                        </div>
+
+                                        <p class="text-gray-400">"Even as a technical professional, I found immense value in NeuraLeap's courses. The advanced LLM implementation classes taught me efficient ways to integrate these models into existing systems, with a level of practical detail I couldn't find elsewhere. The focus on best practices and safety has made me a better AI developer."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Join Us CTA -->
+                <div class="text-center">
+                    <h2 class="text-2xl font-bold text-white mb-6">Be Part of Our Story</h2>
+                    <p class="text-gray-300 mb-8 max-w-2xl mx-auto">Join thousands of students who are learning to harness the power of AI to transform their work and daily life in safe, ethical, and beneficial ways.</p>
+                    <a href="../courses/index.html" class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-8 py-4 rounded-lg font-medium hover:from-cyan-600 hover:to-blue-600 transition-colors">Explore Courses</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+    <script>
+        // Load components
+        fetch('/components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+                
+                // 确保下拉菜单正常工作 - 增强版
+                setTimeout(() => {
+                    // 直接初始化下拉菜单，不依赖header.html中的代码
+                    const dropdowns = document.querySelectorAll('.dropdown');
+                    console.log(`找到 ${dropdowns.length} 个下拉菜单元素`);
+                    
+                    dropdowns.forEach((dropdown) => {
+                        const menu = dropdown.querySelector('.dropdown-menu');
+                        
+                        if (menu) {
+                            // 确保菜单默认是隐藏的
+                            menu.classList.add('hidden');
+                            
+                            // 鼠标悬停显示下拉菜单
+                            dropdown.addEventListener('mouseenter', () => {
+                                menu.classList.remove('hidden');
+                            });
+                            
+                            // 鼠标离开隐藏下拉菜单
+                            dropdown.addEventListener('mouseleave', () => {
+                                menu.classList.add('hidden');
+                            });
+                        }
+                    });
+                    
+                    // 如果header中定义了initNeuraLeapHeader函数，也调用它
+                    if (window.initNeuraLeapHeader) {
+                        window.initNeuraLeapHeader();
+                    }
+                }, 300);
+            });
+            
+        fetch('/components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+            
+        // 标签切换功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.about-tab');
+            const sections = document.querySelectorAll('.about-section');
+            
+            // Improved tab selection for both desktop and mobile
+            function handleTabSelection(tab) {
+                // 移除所有活动标签样式
+                tabs.forEach(t => {
+                    t.classList.remove('text-cyan-400', 'border-cyan-400');
+                    t.classList.add('text-gray-300', 'border-transparent');
+                });
+                
+                // 添加活动标签样式
+                tab.classList.remove('text-gray-300', 'border-transparent');
+                tab.classList.add('text-cyan-400', 'border-cyan-400');
+                
+                // 隐藏所有部分
+                sections.forEach(section => {
+                    section.classList.add('hidden');
+                });
+                
+                // 显示选定的部分
+                const target = tab.getAttribute('data-tab');
+                document.getElementById(`${target}-section`).classList.remove('hidden');
+            }
+            
+            // Add touch event listeners for mobile
+            tabs.forEach(tab => {
+                // Regular click for desktop
+                tab.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    handleTabSelection(tab);
+                });
+                
+                // Touch start/end for better mobile response
+                tab.addEventListener('touchstart', function(e) {
+                    tab.classList.add('active-touch');
+                }, { passive: true });
+                
+                tab.addEventListener('touchend', function(e) {
+                    if (tab.classList.contains('active-touch')) {
+                        e.preventDefault();
+                        handleTabSelection(tab);
+                        tab.classList.remove('active-touch');
+                    }
+                });
+                
+                // Cancel touch if moved away
+                tab.addEventListener('touchmove', function() {
+                    tab.classList.remove('active-touch');
+                }, { passive: true });
+                
+                // Cancel touch if cancelled
+                tab.addEventListener('touchcancel', function() {
+                    tab.classList.remove('active-touch');
+                }, { passive: true });
+            });
+            
+            // Initialize mobile menu button functionality
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+                
+                mobileMenuButton.addEventListener('touchend', function(e) {
+                    e.preventDefault();
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+    
+    <!-- Vercel Speed Insights -->
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+</body>
+</html>
