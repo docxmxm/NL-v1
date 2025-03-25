@@ -1,0 +1,283 @@
+INFO 2025-03-09 03:50:38,917 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-09 04:11:46,081 utils Failed to send welcome email to user1@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:47,005 utils Failed to send welcome email to user2@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:47,924 utils Failed to send welcome email to user3@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:48,845 utils Failed to send welcome email to user4@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:49,768 utils Failed to send welcome email to user5@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:50,691 utils Failed to send welcome email to user6@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:51,610 utils Failed to send welcome email to user7@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:52,532 utils Failed to send welcome email to user8@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:53,454 utils Failed to send welcome email to user9@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:54,375 utils Failed to send welcome email to user10@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:55,296 utils Failed to send welcome email to user11@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:56,219 utils Failed to send welcome email to user12@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:57,140 utils Failed to send welcome email to user13@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:58,061 utils Failed to send welcome email to user14@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:58,982 utils Failed to send welcome email to user15@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:11:59,904 utils Failed to send welcome email to user16@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:00,826 utils Failed to send welcome email to user17@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:01,748 utils Failed to send welcome email to user18@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:02,565 utils Failed to send welcome email to user19@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:03,489 utils Failed to send welcome email to user20@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:04,414 utils Failed to send welcome email to user21@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:05,332 utils Failed to send welcome email to user22@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:06,165 utils Failed to send welcome email to user23@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:07,072 utils Failed to send welcome email to user24@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:07,995 utils Failed to send welcome email to user25@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:08,915 utils Failed to send welcome email to user26@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:09,838 utils Failed to send welcome email to user27@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:10,653 utils Failed to send welcome email to user28@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:11,580 utils Failed to send welcome email to user29@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:12,500 utils Failed to send welcome email to user30@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:13,422 utils Failed to send welcome email to user31@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:14,308 utils Failed to send welcome email to user32@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:15,162 utils Failed to send welcome email to user33@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:16,083 utils Failed to send welcome email to user34@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:17,005 utils Failed to send welcome email to user35@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:17,927 utils Failed to send welcome email to user36@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:18,849 utils Failed to send welcome email to user37@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:19,772 utils Failed to send welcome email to user38@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:20,692 utils Failed to send welcome email to user39@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:21,613 utils Failed to send welcome email to user40@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:22,535 utils Failed to send welcome email to user41@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:23,386 utils Failed to send welcome email to user42@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:24,275 utils Failed to send welcome email to user43@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:25,196 utils Failed to send welcome email to user44@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:26,119 utils Failed to send welcome email to user45@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:27,041 utils Failed to send welcome email to user46@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:27,880 utils Failed to send welcome email to user47@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:28,782 utils Failed to send welcome email to user48@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:29,703 utils Failed to send welcome email to user49@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:30,625 utils Failed to send welcome email to user50@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:31,546 utils Failed to send welcome email to user51@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:32,468 utils Failed to send welcome email to user52@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:33,389 utils Failed to send welcome email to user53@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:34,311 utils Failed to send welcome email to user54@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:35,232 utils Failed to send welcome email to user55@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:36,073 utils Failed to send welcome email to user56@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:37,047 utils Failed to send welcome email to user57@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:37,895 utils Failed to send welcome email to user58@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:38,816 utils Failed to send welcome email to user59@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:39,646 utils Failed to send welcome email to user60@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:40,457 utils Failed to send welcome email to user61@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:41,302 utils Failed to send welcome email to user62@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:42,127 utils Failed to send welcome email to user63@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:42,972 utils Failed to send welcome email to user64@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:43,814 utils Failed to send welcome email to user65@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:44,622 utils Failed to send welcome email to user66@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:45,528 utils Failed to send welcome email to user67@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:46,361 utils Failed to send welcome email to user68@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:47,213 utils Failed to send welcome email to user69@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:48,137 utils Failed to send welcome email to user70@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:48,962 utils Failed to send welcome email to user71@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:49,875 utils Failed to send welcome email to user72@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:50,709 utils Failed to send welcome email to user73@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:51,616 utils Failed to send welcome email to user74@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:52,539 utils Failed to send welcome email to user75@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:53,460 utils Failed to send welcome email to user76@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:54,381 utils Failed to send welcome email to user77@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:55,302 utils Failed to send welcome email to user78@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:56,224 utils Failed to send welcome email to user79@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:57,044 utils Failed to send welcome email to user80@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:57,865 utils Failed to send welcome email to user81@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:58,684 utils Failed to send welcome email to user82@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:12:59,509 utils Failed to send welcome email to user83@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:00,422 utils Failed to send welcome email to user84@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:01,272 utils Failed to send welcome email to user85@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:02,163 utils Failed to send welcome email to user86@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:03,085 utils Failed to send welcome email to user87@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:04,006 utils Failed to send welcome email to user88@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:04,827 utils Failed to send welcome email to user89@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:05,747 utils Failed to send welcome email to user90@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:06,587 utils Failed to send welcome email to user91@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:07,436 utils Failed to send welcome email to user92@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:08,307 utils Failed to send welcome email to user93@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:09,127 utils Failed to send welcome email to user94@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:09,934 utils Failed to send welcome email to user95@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:10,765 utils Failed to send welcome email to user96@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:11,593 utils Failed to send welcome email to user97@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:12,505 utils Failed to send welcome email to user98@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:13,393 utils Failed to send welcome email to user99@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:14,246 utils Failed to send welcome email to user100@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:15,088 utils Failed to send welcome email to user101@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:15,929 utils Failed to send welcome email to user102@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:16,779 utils Failed to send welcome email to user103@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:17,626 utils Failed to send welcome email to user104@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:18,547 utils Failed to send welcome email to user105@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:19,469 utils Failed to send welcome email to user106@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:20,390 utils Failed to send welcome email to user107@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:21,312 utils Failed to send welcome email to user108@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:22,235 utils Failed to send welcome email to user109@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:23,154 utils Failed to send welcome email to user110@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:24,077 utils Failed to send welcome email to user111@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:24,998 utils Failed to send welcome email to user112@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:26,022 utils Failed to send welcome email to user113@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:26,944 utils Failed to send welcome email to user114@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:27,760 utils Failed to send welcome email to user115@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:28,685 utils Failed to send welcome email to user116@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:29,504 utils Failed to send welcome email to user117@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:30,427 utils Failed to send welcome email to user118@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:31,347 utils Failed to send welcome email to user119@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:32,269 utils Failed to send welcome email to user120@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:33,190 utils Failed to send welcome email to user121@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:34,112 utils Failed to send welcome email to user122@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:35,034 utils Failed to send welcome email to user123@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:35,660 utils Failed to send welcome email to user124@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:36,266 utils Failed to send welcome email to user125@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:37,184 utils Failed to send welcome email to user126@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:38,105 utils Failed to send welcome email to user127@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:39,027 utils Failed to send welcome email to user128@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:39,623 utils Failed to send welcome email to user129@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:40,563 utils Failed to send welcome email to user130@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:41,485 utils Failed to send welcome email to user131@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:42,406 utils Failed to send welcome email to user132@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:43,228 utils Failed to send welcome email to user133@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:43,828 utils Failed to send welcome email to user134@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:44,765 utils Failed to send welcome email to user135@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:45,683 utils Failed to send welcome email to user136@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:46,299 utils Failed to send welcome email to user137@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:47,219 utils Failed to send welcome email to user138@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:48,141 utils Failed to send welcome email to user139@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:49,062 utils Failed to send welcome email to user140@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:49,905 utils Failed to send welcome email to user141@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:50,491 utils Failed to send welcome email to user142@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:51,317 utils Failed to send welcome email to user143@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:52,149 utils Failed to send welcome email to user144@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:52,998 utils Failed to send welcome email to user145@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:53,875 utils Failed to send welcome email to user146@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:54,701 utils Failed to send welcome email to user147@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:55,616 utils Failed to send welcome email to user148@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:56,477 utils Failed to send welcome email to user149@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:57,299 utils Failed to send welcome email to user150@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:58,176 utils Failed to send welcome email to user151@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:59,099 utils Failed to send welcome email to user152@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:13:59,697 utils Failed to send welcome email to user153@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:00,526 utils Failed to send welcome email to user154@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:01,350 utils Failed to send welcome email to user155@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:02,272 utils Failed to send welcome email to user156@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:03,195 utils Failed to send welcome email to user157@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:04,115 utils Failed to send welcome email to user158@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:05,036 utils Failed to send welcome email to user159@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:05,958 utils Failed to send welcome email to user160@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:06,781 utils Failed to send welcome email to user161@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:07,610 utils Failed to send welcome email to user162@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:08,445 utils Failed to send welcome email to user163@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:09,339 utils Failed to send welcome email to user164@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:10,259 utils Failed to send welcome email to user165@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:11,165 utils Failed to send welcome email to user166@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:12,050 utils Failed to send welcome email to user167@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:12,867 utils Failed to send welcome email to user168@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:13,740 utils Failed to send welcome email to user169@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:14,343 utils Failed to send welcome email to user170@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:15,176 utils Failed to send welcome email to user171@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:16,004 utils Failed to send welcome email to user172@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:16,824 utils Failed to send welcome email to user173@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:17,413 utils Failed to send welcome email to user174@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:18,246 utils Failed to send welcome email to user175@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:19,168 utils Failed to send welcome email to user176@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:20,089 utils Failed to send welcome email to user177@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:21,011 utils Failed to send welcome email to user178@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:21,608 utils Failed to send welcome email to user179@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:22,489 utils Failed to send welcome email to user180@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:23,302 utils Failed to send welcome email to user181@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:24,288 utils Failed to send welcome email to user182@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:25,210 utils Failed to send welcome email to user183@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:26,130 utils Failed to send welcome email to user184@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:26,720 utils Failed to send welcome email to user185@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:27,565 utils Failed to send welcome email to user186@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:28,487 utils Failed to send welcome email to user187@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:29,408 utils Failed to send welcome email to user188@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:30,329 utils Failed to send welcome email to user189@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:30,922 utils Failed to send welcome email to user190@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:31,763 utils Failed to send welcome email to user191@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:32,582 utils Failed to send welcome email to user192@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:33,505 utils Failed to send welcome email to user193@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:34,426 utils Failed to send welcome email to user194@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:35,028 utils Failed to send welcome email to user195@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:35,964 utils Failed to send welcome email to user196@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:36,811 utils Failed to send welcome email to user197@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:37,601 utils Failed to send welcome email to user198@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:38,232 utils Failed to send welcome email to user199@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:14:38,839 utils Failed to send welcome email to user200@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:15:53,990 utils Failed to send welcome email to user1@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:15:55,014 utils Failed to send welcome email to user2@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:15:56,038 utils Failed to send welcome email to user3@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:15:57,063 utils Failed to send welcome email to user4@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:15:58,087 utils Failed to send welcome email to user5@example.com: HTTP Error 401: Unauthorized
+ERROR 2025-03-09 04:15:59,110 utils Failed to send welcome email to admin@example.com: HTTP Error 401: Unauthorized
+WARNING 2025-03-09 04:15:59,385 log Not Found: /admin/core/user/
+ERROR 2025-03-09 04:16:00,339 utils Failed to send enrollment confirmation email: HTTP Error 401: Unauthorized
+INFO 2025-03-09 04:16:00,340 mock_utils MOCK: Would send enrollment confirmation email to user1@example.com for course Course 2
+ERROR 2025-03-09 04:16:01,261 utils Failed to send enrollment confirmation email: HTTP Error 401: Unauthorized
+INFO 2025-03-09 04:16:01,262 mock_utils MOCK: Would send enrollment confirmation email to user2@example.com for course Course 2
+ERROR 2025-03-09 04:16:02,182 utils Failed to send enrollment confirmation email: HTTP Error 401: Unauthorized
+INFO 2025-03-09 04:16:02,183 mock_utils MOCK: Would send enrollment confirmation email to user2@example.com for course Course 3
+ERROR 2025-03-09 04:16:03,104 utils Failed to send enrollment confirmation email: HTTP Error 401: Unauthorized
+INFO 2025-03-09 04:16:03,104 mock_utils MOCK: Would send enrollment confirmation email to user3@example.com for course Course 2
+ERROR 2025-03-09 04:16:04,026 utils Failed to send enrollment confirmation email: HTTP Error 401: Unauthorized
+INFO 2025-03-09 04:16:04,026 mock_utils MOCK: Would send enrollment confirmation email to user4@example.com for course Course 1
+ERROR 2025-03-09 04:16:05,050 utils Failed to send enrollment confirmation email: HTTP Error 401: Unauthorized
+INFO 2025-03-09 04:16:05,051 mock_utils MOCK: Would send enrollment confirmation email to user5@example.com for course Course 3
+INFO 2025-03-09 04:16:05,059 mock_utils MOCK: Would send survey notification 'Survey 1' to 5 users
+INFO 2025-03-09 04:16:05,060 mock_utils MOCK: Would send welcome email to user1@example.com
+INFO 2025-03-09 04:16:05,060 mock_utils MOCK: Would send welcome email to user2@example.com
+INFO 2025-03-09 04:16:05,060 mock_utils MOCK: Would send welcome email to user3@example.com
+INFO 2025-03-09 04:16:05,060 mock_utils MOCK: Would send welcome email to user4@example.com
+INFO 2025-03-09 04:16:05,060 mock_utils MOCK: Would send welcome email to user5@example.com
+INFO 2025-03-09 04:21:22,866 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-09 04:21:33,515 log Not Found: /api/accounts/register/
+WARNING 2025-03-09 04:21:33,515 basehttp "GET /api/accounts/register/ HTTP/1.1" 404 8686
+WARNING 2025-03-09 04:21:40,377 log Not Found: /api/accounts/register/
+WARNING 2025-03-09 04:21:40,378 basehttp "GET /api/accounts/register/ HTTP/1.1" 404 8686
+WARNING 2025-03-09 04:24:44,672 log Method Not Allowed: /api/auth/register/
+WARNING 2025-03-09 04:24:44,673 basehttp "GET /api/auth/register/ HTTP/1.1" 405 8839
+INFO 2025-03-09 04:24:44,700 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2025-03-09 04:24:44,701 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-03-09 04:24:44,701 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2025-03-09 04:24:44,701 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-03-09 04:24:44,704 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-03-09 04:24:44,704 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2025-03-09 04:24:44,705 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-03-09 04:24:44,706 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2025-03-09 04:24:44,707 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-03-09 04:24:44,708 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-03-09 04:24:44,711 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+ERROR 2025-03-09 04:26:16,891 utils Failed to send welcome email to testuser123@example.com: HTTP Error 401: Unauthorized
+INFO 2025-03-09 04:26:16,912 basehttp "POST /api/auth/register/ HTTP/1.1" 201 9360
+WARNING 2025-03-09 04:26:32,876 log Method Not Allowed: /api/auth/login/
+WARNING 2025-03-09 04:26:32,877 basehttp "GET /api/auth/login/ HTTP/1.1" 405 40
+WARNING 2025-03-09 04:27:22,487 log Bad Request: /api/auth/register/
+WARNING 2025-03-09 04:27:22,487 basehttp "POST /api/auth/register/ HTTP/1.1" 400 58
+INFO 2025-03-09 04:27:28,193 basehttp "POST /api/auth/login/ HTTP/1.1" 200 254
+WARNING 2025-03-09 04:28:00,037 log Method Not Allowed: /api/auth/login/
+WARNING 2025-03-09 04:28:00,039 basehttp "GET /api/auth/login/ HTTP/1.1" 405 40
+WARNING 2025-03-09 04:28:00,634 log Method Not Allowed: /api/auth/login/
+WARNING 2025-03-09 04:28:00,635 basehttp "GET /api/auth/login/ HTTP/1.1" 405 40
+WARNING 2025-03-09 04:28:00,785 log Method Not Allowed: /api/auth/login/
+WARNING 2025-03-09 04:28:00,786 basehttp "GET /api/auth/login/ HTTP/1.1" 405 40
+WARNING 2025-03-09 04:28:00,940 log Method Not Allowed: /api/auth/login/
+WARNING 2025-03-09 04:28:00,940 basehttp "GET /api/auth/login/ HTTP/1.1" 405 40
+INFO 2025-03-09 04:28:48,032 autoreload Watching for file changes with StatReloader
+INFO 2025-03-09 04:29:43,879 autoreload Watching for file changes with StatReloader
+INFO 2025-03-09 04:30:03,529 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-09 04:31:15,471 log Bad Request: /api/auth/register/
+WARNING 2025-03-09 04:31:15,472 basehttp "POST /api/auth/register/ HTTP/1.1" 400 236
+WARNING 2025-03-09 04:32:40,404 log Bad Request: /api/auth/register/
+WARNING 2025-03-09 04:32:40,405 basehttp "POST /api/auth/register/ HTTP/1.1" 400 58
+WARNING 2025-03-09 04:34:13,215 log Bad Request: /api/auth/register/
+WARNING 2025-03-09 04:34:13,217 basehttp "POST /api/auth/register/ HTTP/1.1" 400 58
+INFO 2025-03-09 04:35:31,449 basehttp "POST /api/auth/login/ HTTP/1.1" 200 254
+WARNING 2025-03-09 04:37:23,866 log Forbidden: /api/auth/profile/
+WARNING 2025-03-09 04:37:23,867 basehttp "PATCH /api/auth/profile/ HTTP/1.1" 403 27
+WARNING 2025-03-09 04:37:58,701 log Forbidden: /api/auth/profile/
+WARNING 2025-03-09 04:37:58,702 basehttp "GET /api/auth/profile/ HTTP/1.1" 403 27
+INFO 2025-03-09 04:47:54,464 basehttp "PATCH /api/auth/profile/ HTTP/1.1" 200 194
+INFO 2025-03-09 04:47:56,703 basehttp "GET /api/auth/profile/ HTTP/1.1" 200 194
+INFO 2025-03-09 04:50:30,066 autoreload /Users/roi/Desktop/NerualLeap-Website-master/backend/myproject/settings.py changed, reloading.
+INFO 2025-03-09 04:50:30,070 autoreload /Users/roi/Desktop/NerualLeap-Website-master/backend/myproject/settings.py changed, reloading.
+INFO 2025-03-09 04:50:30,477 autoreload Watching for file changes with StatReloader
+INFO 2025-03-09 04:50:30,477 autoreload Watching for file changes with StatReloader
+INFO 2025-03-09 04:50:44,140 autoreload /Users/roi/Desktop/NerualLeap-Website-master/backend/accounts/views.py changed, reloading.
+INFO 2025-03-09 04:50:44,141 autoreload /Users/roi/Desktop/NerualLeap-Website-master/backend/accounts/views.py changed, reloading.
+INFO 2025-03-09 04:50:44,509 autoreload Watching for file changes with StatReloader
+INFO 2025-03-09 04:50:44,509 autoreload Watching for file changes with StatReloader
